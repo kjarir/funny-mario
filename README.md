@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/08a43f22-b2cc-4072-afcc-ed72559974a9)
 # 🤖 Funny Mario
 
 **Funny Mario** is a hilarious, AI-powered chatbot that scans PDF books, detects if a message is present, and replies with funny responses and AI-generated images. It combines advanced AI (Gemini + Stable Diffusion) with a slick React frontend, voice interaction, and multilingual capabilities — making conversations not just smart, but fun.

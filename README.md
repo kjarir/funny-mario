@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/08a43f22-b2cc-4072-afcc-ed72559974a9)
 # 🤖 Funny Mario
 
 **Funny Mario** is a hilarious, AI-powered chatbot that scans PDF books, detects if a message is present, and replies with funny responses and AI-generated images. It combines advanced AI (Gemini + Stable Diffusion) with a slick React frontend, voice interaction, and multilingual capabilities — making conversations not just smart, but fun.
@@ -41,6 +40,16 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn app:app --reload
 
-<img width="1470" alt="Screenshot 2025-05-26 at 2 49 58 PM" src="https://github.com/user-attachments/assets/45aa4fa3-f90c-45a7-a9fb-91aa972ed35a" />
-<img width="1470" alt="Screenshot 2025-05-26 at 2 50 56 PM" src="https://github.com/user-attachments/assets/2b5297e5-2ff8-487b-ab35-d8da70f33353" />
-<img width="1470" alt="Screenshot 2025-05-26 at 2 51 12 PM" src="https://github.com/user-attachments/assets/4d1f6d20-dc18-4f2c-befd-77080ca66c3a" />
+## 🎥 Demo
+
+Here’s what Funny Mario looks like in action:
+
+<img width="1470" alt="Screenshot 2025-05-26 at 2 53 37 PM" src="https://github.com/user-attachments/assets/10e34c0f-dc28-426e-a37b-530433444904" />
+
+<img width="1470" alt="Screenshot 2025-05-26 at 2 53 29 PM" src="https://github.com/user-attachments/assets/4f714fd1-3917-4c75-b4a8-1b2de16e11f9" />
+
+<img width="1470" alt="Screenshot 2025-05-26 at 2 53 19 PM" src="https://github.com/user-attachments/assets/ac72f69d-a638-4c39-abac-f38a8ffe6566" />
+
+<img width="1470" alt="Screenshot 2025-05-26 at 1 31 48 AM" src="https://github.com/user-attachments/assets/5a60e9b7-d874-45dd-8439-ca18e3b8bba9" />
+
+

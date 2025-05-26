@@ -86,7 +86,7 @@ const Footer = () => {
                 support@FunnyMario.example.com
               </li>
               <li className="text-purple-200">
-                (555) 123-4567
+                +91 9987840201
               </li>
               <li className="mt-4">
                 <button 

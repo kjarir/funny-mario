@@ -6,14 +6,14 @@ import { BookOpen, Sparkles, Rocket, Star } from 'lucide-react';
 
 const timelineEvents = [
   {
-    year: "2023",
+    year: "2025",
     title: "The Idea",
     description: "FunnyMario was born from a simple idea: make reading fun and interactive for kids in the digital age.",
     icon: Sparkles,
     color: "from-blue-400 to-blue-600",
   },
   {
-    year: "2024",
+    year: "2025",
     title: "Development",
     description: "Our team of educators and AI experts built FunnyMario to create engaging, educational stories for all ages.",
     icon: Rocket,
@@ -66,14 +66,14 @@ const AboutBot = () => {
     const timelineItems = gsap.utils.toArray(".timeline-item");
     timelineItems.forEach((item, index) => {
       gsap.fromTo(
-        item,
+        item as HTMLElement,
         { opacity: 0, x: index % 2 === 0 ? -50 : 50 },
         {
           opacity: 1,
           x: 0,
           duration: 0.8,
           scrollTrigger: {
-            trigger: item,
+            trigger: item as HTMLElement,
             start: "top 80%",
             toggleActions: "play none none none",
           },
@@ -101,7 +101,7 @@ const AboutBot = () => {
     // Animate floating elements
     const floatingElements = gsap.utils.toArray(".floating-element");
     floatingElements.forEach((element) => {
-      gsap.to(element, {
+      gsap.to(element as HTMLElement, {
         y: "random(-20, 20)",
         x: "random(-20, 20)",
         rotation: "random(-15, 15)",

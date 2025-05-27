@@ -40,6 +40,8 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn app:app --reload
 
+npm run dev (to run the project, no need to run the backend seperately it runs concureently!)
+
 ## 🎥 Demo
 
 Here’s what Funny Mario looks like in action:
